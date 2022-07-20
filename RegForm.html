@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+    <head><title>ApplicationForm</title>
+    <style>
+       
+
+    </style>
+    </head>
+    <body>
+        <center>
+        
+        <h1>User Registration</h1>
+
+        <form>
+
+            <fieldset style="width:50%; border-radius: 10px; border: 20px soild rgb(233, 12, 159); background-color: rgb(139, 139, 246);">
+            <legend style="color:blueviolet; background-color: aqua;">Personal Info</legend>
+
+           <label> Enter your First Name::</label>
+            <input type="text" name="fname " id="fname" onfocus="focusevent()" placeholder="Enter your first name"><br><br>
+
+            <label> Enter your last Name::</label>
+            <input type="text" name="lname " id=" lname" placeholder="Enter your last name"> <br><br>
+
+            <label>Enter your Address::</label>
+            <textarea rows="2" cols="20" ></textarea> <br><br>
+
+            <label> Enter your password::  </label>
+            <input type="password" name="password" id="Password"  required> <br><br>
+
+            <label> Enter your Email ID::  </label>
+            <input type="email" name="email" id="eid" placeholder="@gmail.com"><br><br>
+
+            <label> Gender ::</label>
+            <input type="radio" name="Gender" id="Gender" value="Male"> Male
+            <input type="radio" name="Gender" id="Gender" value="Female">Female
+            <input type="radio" name="Gender" id="Gender" value="Others"> Others <br><br>
+
+            <label>Enter your Skills ::</label>
+            <input type="checkbox" id="Java" name="Java" value="Java">
+            <label>Standard Java</label>
+
+            <input type="checkbox" name="CSS" value="CSS"
+            <label>CSS</label>
+
+            <input type="checkbox" name="Python" id="Python" value="Python">
+            <label>Python</label> <br><br>
+
+            <label > Branch::</label>
+            <select name="Branch" id="Branch"  style="width: 200px";>
+                
+        
+                <option value="BE">BE</option>
+                <option value="BA">BA</option>
+                <option value="BSC">BSC</option>
+                <option value="BCOM">BCOM</option>
+
+            </select> <br><br>
+
+        
+
+        </fieldset>
+
+       <br>
+        <input onclick="sub()" type="Submit" value="Click to submit">
+        <input type="reset" value="reset">
+    </form>
+    </center>
+
+    <script>
+
+       function focusevent(){
+           document.getElementById("fname").style.background="red";
+       }
+    </script>
+    </body>
+</html>
