@@ -1,0 +1,235 @@
+@media screen and (max-width:800px){
+     body{
+      background-color: aqua;
+        }
+  }
+#head {
+    text-align: center;
+    color: rgb(191, 191, 255);
+    text-shadow: 5px 5px 20px rgb(0, 0, 0);
+  }
+
+  body{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    
+ 
+  }
+  .main {
+    position: relative;
+    display: block;
+    margin: 50px;
+    padding: 40px;
+   
+    background: linear-gradient(45deg,rgb(143, 255, 175, 0.7) 60%,rgba(227, 245, 244, 0.7) 50%);
+    box-shadow: 5px 5px 5px;
+    overflow: hidden;
+  }
+
+  .main:hover{
+    background: linear-gradient(45deg,rgba(4, 112, 180, 0.7) 60%,rgba(195, 69, 241, 0.7) 50%);
+
+  }
+
+  .main> .req{
+      color: navy;
+      text-shadow: 1px 1px 8px rgb(2, 42, 55);
+  }
+
+  .child {
+    position: absolute;
+    right: 10px;
+    float: right;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .req:hover{
+         color: aqua;
+  }
+
+  .asides {
+    float: right;
+    border: 2px solid rgb(255, 223, 223);
+    color: aliceblue;
+    line-height: 35px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: navy;
+    box-shadow: 0 5px 10px;
+    width: 250px;
+  }
+
+  .asides>p{
+      text-align: center;
+  }
+  .ql {
+    float: left;
+    margin-right: 5px;
+ 
+  }
+  .ql > img {
+      float: left;
+    width: 70%;
+    height:50%;
+    margin-left: 10px;
+    box-shadow: 0 5px 10px;
+  }
+  .body1{
+    display: flex;
+    margin: 0px;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .main1 {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+   
+  
+  }
+  .main1 > #item {
+    width: 180px;
+    height: 300px;
+    background-color: orange;
+    margin-top: 100px;
+    border-radius: 15px;
+    transition:transform 1s ;
+  }
+
+ 
+
+  .body1> .main1:hover #item{
+    transform: translateY(40%);
+        background-color: aqua;
+        overflow: visible;
+      
+  }
+
+
+
+  #item> img{
+    width:370px ;
+    height: 400px;
+    border-radius: 20px;
+  }
+
+h2 , h3{
+    color: white;
+}
+
+  .Disc{
+     
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      color: white;
+  }
+  .content{
+      flex:60%;
+      line-height: 25px;
+      font-size: 20px;
+      font-family: 'Akshar', sans-serif; 
+   
+  }
+  .images{
+      flex: 40%;
+      margin-bottom: 20px;
+      height: 300px;
+      width: 300px;     
+  }
+
+
+  .child{
+      position: relative;
+  }
+.child> button > a, button {
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(108, 33, 173);
+    color: aliceblue;
+}
+
+
+.child> button > a:hover{
+    background-color: black;
+}
+button:hover{
+    background-color: black;
+}
+
+.Qual{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.im{
+    flex: 50%;
+}
+.Qualifications{
+    flex: 50%;
+}
+.Qualifications > ul> li{
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: 'Akshar', sans-serif; 
+}
+
+
+
+
+footer{
+    padding: 10px;
+    width: 90%;
+   margin-left: 0;
+   margin-right: 5px;
+    width: 90%;
+    float: left;
+    
+ 
+   
+}
+
+.F> li> a{
+   
+    color: rgb(187, 181, 181);
+  
+   line-height: 45px;
+
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.end{
+    display: flex;
+    padding: 15px;
+    list-style-type: none;
+   
+}
+.F{
+    list-style-type: none;
+    margin-left: 90px;
+    line-height: 30px;
+   
+}
+
+aside:hover {
+    color: rgb(25, 31, 31);
+    background-color: azure;
+}
+   
+
+
+
+
